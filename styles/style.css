@@ -1,8 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: "Inter", sans-serif;
+:root {
+  --primary-text-color: rgba(255, 255, 255, 1);
+  --pragraph-text-color: rgba(255, 255, 255, 0.5);
+  --primary-btn-color: rgba(230, 83, 60, 1);
+  --section-bg-color:rgba(34, 34, 34, 1);
+  --sub-heading-f-size: 48px;
+  --sub-heading-f-weight:900;
+  --pragraph-font-size:16px;
+  --pragraph-font-weight:400;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(0, 0, 0, 1);
+  color: var(--primary-text-color);
 }
